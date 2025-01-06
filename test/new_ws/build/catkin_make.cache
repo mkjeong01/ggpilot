@@ -1,0 +1,2 @@
+moveit_calibration/moveit_calibration_gui:moveit_calibration/moveit_calibration_plugins:robot_description:rviz_visual_tools:six_dof_arm_moveit_config:six_dof_arm_test
+-DCATKIN_DEVEL_PREFIX=/home/jetson/Desktop/test_ws/new_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/Desktop/test_ws/new_ws/install -G Unix Makefiles

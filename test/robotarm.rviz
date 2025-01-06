@@ -1,0 +1,44 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+  - Class: rviz/ToolProperties
+    Name: Tool Properties
+  - Class: rviz/Views
+    Name: Views
+Visualization Manager:
+  Displays:
+    - Class: rviz/RobotModel
+      Enabled: true
+      Name: Robot Model
+      Robot Description: robot_description
+      TF Prefix: ""
+    - Class: rviz/TF
+      Enabled: true
+      Name: TF
+    - Class: rviz/Camera
+      Enabled: true
+      Name: Camera View
+      Image Topic: /camera/image_raw
+      Queue Size: 10
+    - Class: rviz/Marker
+      Enabled: true
+      Name: Markers
+    - Class: rviz/Grid
+      Enabled: true
+      Name: Grid
+  Global Options:
+    Background Color: [48, 48, 48]
+    Fixed Frame: base_link
+  Tools:
+    - Class: rviz/Interact
+    - Class: rviz/MoveCamera
+    - Class: rviz/FocusCamera
+    - Class: rviz/Select
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Focal Point: [0, 0, 0]
+      Distance: 2.0
+      Pitch: 1.0
+      Yaw: 0.0
+      Position: [1.0, 1.0, 1.0]

@@ -1,0 +1,8 @@
+prefix=/home/jetson/Desktop/test_ws/new_ws/install
+
+Name: six_dof_arm_moveit_config
+Description: Description of six_dof_arm_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
