@@ -1,8 +1,0 @@
-prefix=/home/jetson/Desktop/test_ws/new_ws/install
-
-Name: six_dof_arm_test
-Description: Description of six_dof_arm_test
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
